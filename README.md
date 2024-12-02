@@ -2,7 +2,7 @@
 简单的nft防火墙管理脚本
 
 下载并执行
-`wget https://raw.githubusercontent.com/miner1888/bash/main/nft%2Bnat.sh && chmod +x nft+nat.sh && ./nft+nat.sh`
+```wget https://raw.githubusercontent.com/miner1888/bash/main/nft%2Bnat.sh && chmod +x nft+nat.sh && ./nft+nat.sh```
 
 
 ![1733171437181](https://github.com/user-attachments/assets/cc730e43-8176-4890-9344-64ca6496039d)
