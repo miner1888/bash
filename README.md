@@ -4,12 +4,12 @@
 下载并执行
 
 ```bash
-curl -s -o nft_nat.sh https://raw.githubusercontent.com/miner1888/bash/main/nft_nat.sh && sudo bash nft_nat.sh
+wget -O nft.sh https://raw.githubusercontent.com/miner1888/bash/main/nft.sh && sudo chmod +x nft.sh && sudo ./nft.sh
 ```
 curl方式运行
 
 ```bash
-curl -s https://raw.githubusercontent.com/miner1888/bash/main/nft_nat.sh -o nft_nat.sh && sudo bash nft_nat.sh
+curl -s https://raw.githubusercontent.com/miner1888/bash/main/nft.sh -o nft.sh && sudo bash nft.sh
 ```
 
 ![1733171437181](https://github.com/user-attachments/assets/cc730e43-8176-4890-9344-64ca6496039d)
