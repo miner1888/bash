@@ -483,7 +483,7 @@ firewall_menu() {
                     3) protocol="tcp,udp" ;;
                     *) echo -e "${RED}无效选择${NC}"; continue ;;
                 esac
-                read -p $'\e[32m请输入端口号或范围（例如：80 或 100-200）：\e[0m' ports
+                read -p $'\e[32m请输入端口号或范围，多端口用 , 隔开（例如：80,440 或 100-200）：\e[0m' ports
                 open_port "$protocol" "$ports"
                 ;;
             2) list_open_ports ;;
